@@ -78,6 +78,7 @@ class Category(models.Model):
 class Group(models.Model):
     "Generated Model"
     name = models.CharField(max_length=256,)
+    asd = models.CharField(max_length=256, null=True, blank=True,)
 
 
 class Enrollment(models.Model):
